@@ -16,7 +16,7 @@ import com.ems.service.EmployeeService;
 public class EmployeeController implements org.springframework.web.servlet.mvc.Controller {
 	@Autowired
 	EmployeeService employeeService;
-	//one meployee
+	
 	@Override
 	public ModelAndView handleRequest(HttpServletRequest arg0, HttpServletResponse arg1) throws Exception {
 		EmployeeDTO employeeDto=employeeService.getEmployeeDetails();

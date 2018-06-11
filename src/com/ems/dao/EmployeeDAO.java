@@ -15,10 +15,10 @@ public class EmployeeDAO {
 		EmployeeBO employeeBO = new EmployeeBO();
 
 		employeeBO.setEmployeeId(1);
-		employeeBO.setFirstName("Kamalakar");
-		employeeBO.setLastName("Duvva");
+		employeeBO.setFirstName("Kam");
+		employeeBO.setLastName("Duvv");
 		employeeBO.setDesignation("Software Developer");
-		employeeBO.setEmail("kamhlakarduvva@gmail.com");
+		employeeBO.setEmail("kamharduvva@gmail.com");
 		employeeBO.setMobile("9999999999");
 
 		return employeeBO;

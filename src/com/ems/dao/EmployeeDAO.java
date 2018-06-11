@@ -15,10 +15,10 @@ public class EmployeeDAO {
 		EmployeeBO employeeBO = new EmployeeBO();
 
 		employeeBO.setEmployeeId(1);
-		employeeBO.setFirstName("Kamalakar");
-		employeeBO.setLastName("Duvva");
+		employeeBO.setFirstName("Kamal");
+		employeeBO.setLastName("Duv");
 		employeeBO.setDesignation("Software Developer");
-		employeeBO.setEmail("kamhlakarduvva@gmail.com");
+		employeeBO.setEmail("k@gmail.com");
 		employeeBO.setMobile("9999999999");
 
 		return employeeBO;
@@ -31,10 +31,10 @@ public class EmployeeDAO {
 		EmployeeBO employeeBO = new EmployeeBO();
 
 		employeeBO.setEmployeeId(1);
-		employeeBO.setFirstName("Kamalakar");
-		employeeBO.setLastName("Duvva");
+		employeeBO.setFirstName("Kam");
+		employeeBO.setLastName("Dua");
 		employeeBO.setDesignation("Software Developer");
-		employeeBO.setEmail("kamhlakarduvva@gmail.com");
+		employeeBO.setEmail("kam@gmail.com");
 		employeeBO.setMobile("9999999999");
 		
 		employeeBOList.add(employeeBO);
@@ -42,11 +42,11 @@ public class EmployeeDAO {
 		EmployeeBO employeeBO1 = new EmployeeBO();
 
 		employeeBO1.setEmployeeId(2);
-		employeeBO1.setFirstName("Rajendra");
-		employeeBO1.setLastName("Dava");
+		employeeBO1.setFirstName("Ra");
+		employeeBO1.setLastName("Da");
 		employeeBO1.setDesignation("Software Developer");
-		employeeBO1.setEmail("rajendra.prasad@gmail.com");
-		employeeBO1.setMobile("9959330516");
+		employeeBO1.setEmail("r@gmail.com");
+		employeeBO1.setMobile("9953333333");
 		
 		employeeBOList.add(employeeBO1);
 		
